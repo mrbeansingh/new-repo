@@ -1,0 +1,17 @@
+name: Terraform Deployment
+
+on:
+  push:
+    branches:	
+      - main
+jobs:
+  terraforminit: 
+    name: script
+    runs-on: dhondhu-maharaj
+    steps:
+      - name: dhondhu rocks
+        run: echo dhondhu 
+	
+			
+			
+			
